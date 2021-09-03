@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 
 int arr[15][15],size,i,k,j,temp;
