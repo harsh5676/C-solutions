@@ -4,7 +4,7 @@ int main()
 {
 
 int arr[15][15],size,i,k,j,temp;
-//clrscr();
+//clrscr();    
 
 printf("\nEnter the matrix size:");
 scanf("%d",&size);
