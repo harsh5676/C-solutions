@@ -3,7 +3,8 @@
         "stdio.h": "c",
         "cstdio": "c",
         "string.h": "c",
-        "MATRIX.C": "cpp"
+        "MATRIX.C": "cpp",
+        "conio.h": "c"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
