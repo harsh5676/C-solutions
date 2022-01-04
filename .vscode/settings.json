@@ -4,7 +4,9 @@
         "cstdio": "c",
         "string.h": "c",
         "MATRIX.C": "cpp",
-        "conio.h": "c"
+        "conio.h": "c",
+        "STUDENT.C": "cpp",
+        "stdlib.h": "c"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
