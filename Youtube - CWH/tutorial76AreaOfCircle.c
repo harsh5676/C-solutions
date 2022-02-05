@@ -18,7 +18,7 @@ float areaOfCircle(int x1, int y1, int x2, int y2, float (*distance)(int x1, int
 int main()
 {
     system("cls");
-    int x1, y1, x2, y2;
+    int x1, y1, x2, y2; 333e
     float dst;
     // take x1, y1 and x2, y2 from the user using scanf
 
