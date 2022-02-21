@@ -3,6 +3,7 @@ According to Gregorian calendar, it was Monday on the date 01/01/01. If any year
 */
 
 #include <stdio.h>
+#include <conio.h>
 
 int main()
 {
@@ -15,21 +16,21 @@ int main()
 
     /* Calculation */
 
-    diff = yr - ref_yr;     // To find out the total number of years between the reference year and the year provided by the user.
+    diff = yr - ref_yr; // To find out the total number of years between the reference year and the year provided by the user.
 
-    while (ref_yr < yr)     /* To find out the total number of leap years between the reference year 
-                            and the year provided by the user.*/
+    while (ref_yr < yr) /* To find out the total number of leap years between the reference year
+                        and the year provided by the user.*/
     {
-        if(ref_yr % 100 == 0)
+        if (ref_yr % 100 == 0)
         {
-            if(ref_yr % 400 == 0)
+            if (ref_yr % 400 == 0)
             {
                 leap++;
             }
         }
         else
         {
-            if(ref_yr % 4 == 0)
+            if (ref_yr % 4 == 0)
             {
                 leap++;
             }
@@ -37,8 +38,8 @@ int main()
         ref_yr++;
     }
 
-    tot_days = (diff - leap) * 365 + leap * 366;    /*Total number of days from the reference year to
-                                                    the year provided by the user.*/
+    tot_days = (diff - leap) * 365 + leap * 366; /*Total number of days from the reference year to
+                                                 the year provided by the user.*/
     days = tot_days % 7;
 
     /* Printing Output */
@@ -77,9 +78,6 @@ int main()
     {
         printf("Invalid Entry.\n");
     }
-    
-    
-    
 
     return 0;
 }
