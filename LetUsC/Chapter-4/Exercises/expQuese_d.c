@@ -14,17 +14,14 @@ int main()
 
     // Calculation
 
-    angle = (angle * 3.142857) / 180;
+    angle = (angle * (22 / 7)) / 180;
     s = sin(angle);
     c = cos(angle);
     sum = pow(s, 2) + pow(c, 2);
 
     // Printing Output
 
-    if (sum == 1)
-        printf("The sum of squares of sine and cosine of this angle is equal to 1.\n");
-    else
-        printf("The sum of squares of sine and cosine of this angle is not equal to 1.\n");
+    sum == 1 ? printf("true") : printf("false");
     getch();
     return 0;
 }

@@ -6,7 +6,10 @@
         "MATRIX.C": "cpp",
         "conio.h": "c",
         "STUDENT.C": "cpp",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "2.C": "cpp",
+        "DELETEFI.C": "cpp",
+        "XYZ.C": "cpp"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,

@@ -5,11 +5,12 @@
 int main()
 {
     system("cls");
-    int n1, n2, n3, n = 1, i = 0;
-    while (n <= 500)
+    int count = 1, z = 0;
+    while ('a' < 'b' && z < 10)
     {
+        printf("It is what it is!\n");
+        z = count++;
     }
-
     getch();
     return 0;
 }
