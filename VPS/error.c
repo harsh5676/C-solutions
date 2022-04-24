@@ -2,5 +2,5 @@
 
 void main()
 {
-    printf("This program will error.\n")
+    pirntf("This program will error.\n");
 }

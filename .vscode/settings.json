@@ -9,7 +9,9 @@
         "stdlib.h": "c",
         "2.C": "cpp",
         "DELETEFI.C": "cpp",
-        "XYZ.C": "cpp"
+        "XYZ.C": "cpp",
+        "dos.h": "c",
+        "corecrt.h": "c"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,

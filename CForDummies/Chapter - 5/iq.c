@@ -25,7 +25,9 @@ int getval(void)
     char input[20];
     int x;
 
-    gets(input);
-    x = atoi(input);
+    // gets(input);
+    x = atoi(gets(input));
     return (x);
+    // OR
+    // return (atoi(gets(input)));
 }

@@ -4,7 +4,10 @@
 
 void main()
 {
-    int a;
-    a = 2147483647;
-    printf("int: %d", a + 1);
+    int i;
+    for (i = 0; i < 10;)
+    {
+        printf("%d\n", i);
+        i++;
+    }
 }
